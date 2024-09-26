@@ -203,3 +203,87 @@ ls
 cd ass2/
 vi cron_job.sh
 chmod 700 cron_job.sh 
+ls
+cd ass2/
+ls
+vi c
+ls
+vi cron_job.sh 
+sudo yum install git
+clear
+git init .
+ls
+ls -a
+vi .gitignore
+cat .gitignore 
+git remote add origin https://github.com/ajitbiz1316/training-biz-ajit.git
+git branch
+git status
+vi .gitignore
+git status
+git add .
+git commit -m "initial commit"
+git push -u origin master
+git config --global user.name "ajitbiz1316"
+git config --global user.password "@zytGIT0987"
+git push -u origin master
+ssh-keygen -t rsa
+ls ~/.ssh/
+cat ~/.ssh/id_rsa.pub 
+git push -u origin master
+git remote set-url git@github.com:ajitbiz1316/training-biz-ajit.git
+git remote set-url origin git@github.com:ajitbiz1316/training-biz-ajit.git
+git remote -v
+git push -u origin master
+git pull
+git push -u origin master
+git status
+ls
+tail commandslist.txt 
+git branch
+git pull origin master
+rm -rf .git
+git status
+git clone git@github.com:ajitbiz1316/training-biz-ajit.git
+ls
+mv commandslist.txt ./training-biz-ajit/commandslist.txt
+cd training-biz-ajit/
+ls
+rm temp.txt
+git remote -v
+git status
+git add .
+git commit -m "initial commit"
+git push -u origin master
+cd ..
+vi cron_job.sh 
+git status training-biz-ajit/
+vi cron_job.sh 
+./cron_job.sh 
+vi cron_job.sh 
+./cron_job.sh 
+vi cron_job.sh 
+./cron_job.sh 
+vi cron_job.sh 
+./cron_job.sh 
+vi cron_job.sh 
+cat training-biz-ajit/commandslist.txt 
+./cron_job.sh 
+cd 
+crontab -e
+crontab -l
+date +"%Y-%m-%d %H:%M:%S"
+crontab -l
+sdfjbj 
+jasdfjb 
+echo "heloo"
+date +"%Y-%m-%d %H:%M:%S"
+cat ~/.bashrc 
+date +"%Y-%m-%d %H:%M:%S"
+history
+date +"%Y-%m-%d %H:%M:%S"
+cat ass2/training-biz-ajit/commandslist.txt 
+history > ass2/training-biz-ajit/commandslist.txt 
+cat ass2/training-biz-ajit/commandslist.txt 
+vi ass2/cron_job.sh 
+./ass2/cron_job.sh 
