@@ -287,3 +287,46 @@ history > ass2/training-biz-ajit/commandslist.txt
 cat ass2/training-biz-ajit/commandslist.txt 
 vi ass2/cron_job.sh 
 ./ass2/cron_job.sh 
+ls
+cat ./.bashrc 
+cd ass2/
+vi cron_job.sh 
+./cron_job.sh 
+history
+echo "hello"
+tail training-biz-ajit/commandslist.txt 
+date +"%Y-%m-%d %H:%M:%S"
+tail training-biz-ajit/commandslist.txt 
+sudo grep cron
+vi cron_job.sh 
+crontab -e
+date +"%Y-%m-%d %H:%M:%S"
+tail training-biz-ajit/commandslist.txt 
+crontab -e
+tail training-biz-ajit/commandslist.txt 
+grep CRON var/log/cron
+grep CRON /var/log/cron
+sudo grep CRON /var/log/cron
+cat cron_output.log 
+tail training-biz-ajit/commandslist.txt 
+./cron_job.sh 
+asdkjk
+./cron_job.sh 
+vi ./cron_job.sh 
+./cron_job.sh 
+tail training-biz-ajit/commandslist.txt 
+vi ./cron_job.sh 
+ls
+./cron_job.sh 
+tail training-biz-ajit/commandslist.txt 
+vi ./cron_job.sh 
+./cron_job.sh 
+date +"%Y"
+date +"%M-%H"
+tail training-biz-ajit/commandslist.txt 
+grep --help
+cd
+wc --help
+cat ass2/cron_job.sh | wc -l
+grep --file=./* history | wc -l
+grep -r history | wc -l
