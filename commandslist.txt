@@ -1,0 +1,205 @@
+mkdir temp
+ls
+exit
+sudo adduser ajit
+ls ../home
+pwd
+ls ../
+sudo passwd ajit
+su ajit
+pwd
+ls
+ls /etc/ssh
+rm -rf temp
+ls
+exit
+sudo vi /etc/ssh/sshd_config
+sudo service sshd restart
+sudo su
+exit
+sudo systemctl restart sshd
+sudo cat /etc/ssh/sshd_config
+sudo service sshd reload
+sudo systemctl sshd reload
+history
+sudo systemctl reload sshd
+ls
+mkdir temp
+ls
+cat /etc/ssh/sshd_config
+sudo cat /etc/ssh/sshd_config
+sudo vi /etc/ssh/sshd_config.d
+sudo ls /etc/ssh/sshd_config.d
+sudo vi /etc/ssh/sshd_config
+sudo cat /etc/ssh/sshd_config
+sudo service sshd restart
+mkdir ../ajit/.ssh
+sudo mkdir ../ajit/.ssh
+ls ../ajit
+sudo ls ../ajit
+sudo ls -a ../ajit
+sudo su
+sudo vi /etc/ssh/sshd_config
+sudo service sshd restart
+sudo vi /etc/ssh/sshd_config
+su ajit
+sudo su ajit
+sudo su
+sudo ajit
+su ajit
+sudo vi /etc/ssh/sshd_config
+sudo service sshd restart
+sudo adduser ajit2
+sudo passwd ajit2
+sudo su ajit2
+#1726578899
+export HISTTIMEFORMAT="%F %T "
+#1726578899
+source ~/.bashrc
+#1726578899
+history > commandslist.txt
+#1726578907
+ls
+#1726578913
+cat commandslist.txt 
+#1726578941
+rm -rf temp
+cat commandslist.txt 
+sudo su ajit2
+sudo su ajit
+userdel ajit2
+sudo userdel ajit2
+ls ../
+sudo su ajit2
+sudo rm -rf ../ajit2 
+ls ../
+#1726731354
+ls
+#1726731362
+export HISTTIMEFORMAT="%F %T "
+#1726731362
+source ~/.bashrc
+#1726731362
+history > commandslist.txt
+#1726731367
+cat commandslist.txt 
+sudo usermod -aG wheel ajit
+sudo visudo 
+sudo passwd ajit
+su ajit
+wget https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+sudo yum update
+clear
+sudo yum install wget
+wget https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+ls
+sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm 
+wget https://pkgs.sysadmins.ws/el9/base/x86_64/compat-openssl10-1.0.2u-1.el9.x86_64.rpm
+sud yum localinstall compat-openssl10-1.0.2u-1.el9.x86_64.rpm 
+sudo yum localinstall compat-openssl10-1.0.2u-1.el9.x86_64.rpm 
+sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm 
+wget https://download.oracle.com/otn-pub/otn_software/db-express/oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm 
+clear
+exit
+sudo yum install java-17-openjdk-devel
+java --version
+exit
+ls /opt/
+cd /opt/oracle/
+ls
+cd cfgtoollogs/
+sudo cd cfgtoollogs/
+ls
+sudo cd cfgtoollogs/
+ls
+cd homes/
+sudo cd homes/
+ls
+sudo su
+cd 
+ls /opt/ORCLfmap/
+sudo su
+export ORACLE_HOME=/opt/oracle/product/dbhomeXE
+echo $ORACLE_HOME
+cd $ORACLE_HOME
+sudo cd $ORACLE_HOME
+ls /opt/oracle/product/
+export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
+echo $ORACLE_HOME
+cd $ORACLE_HOME
+ls
+cd
+exit
+ls ../
+sudo /etc/init.d/oracle-xe-21c configure
+sqlplus
+sqlplus classicmodels/classicmodels123
+bash ./.bash_profile 
+cat ./.bash_profile 
+cat $ORACLE_HOME
+echo $ORACLE_HOME
+vi ./.bash_profile 
+source ~/.bash_profile 
+sqlplus classicmodels/classicmodels123
+sqlplus
+sqlplus classicmodels/classicmodels123
+sudo /etc/init.d/oracle-xe-21c stop
+sudo /etc/init.d/oracle-xe-21c configure
+sudo /etc/init.d/oracle-xe-21c start
+sqlplus
+sudo lsnrctl status
+sudo service oracle-xe-21c start
+vi ./.bash_profile 
+sudo lsnrctl status
+cd $ORACLE_HOME
+ls
+echo $PATH | grep oracle
+cd 
+source ./.bash_profile 
+echo $PATH | grep oracle
+echo $PATH
+env
+export PATH=$ORACLE_HOME/bin:/home/ec2-user/.local/bin:/home/ec2-user/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+echo $PATH | grep oracle
+cat ./.bash_profile 
+sudo lsnrctl status
+sqlplus
+sudo service oracle-xe-21c st
+exit
+sqlplus classicmodels/classicmodels123
+echo $PATH
+sudo lsnrctl status
+cd $ORACLE_HOME/bin
+ls
+lsnrctl status
+cd
+sudo service oracle-xe-21c start
+lsnrctl status
+sqlplus classicmodes/classicmodels123
+sqlplus classicmodels/classicmodels123
+sqlplus classicmodes/classicmodels123
+sqlplus classicmodels/classicmodels123
+vi ./.bash_profile 
+source ./.bash_profile 
+cat ./.bash_p
+cat ./.bash_profile 
+ls
+cd $ORACLE_HOME/bin
+imp classicmodels/classicmodels FULL=y FILE=~/classicmodels.dmp log=~/import.log
+sqlplus classicmodels/classicmodels123
+clear
+cd 
+ls
+cat import.log 
+exit
+ls
+history
+history | grep history
+sudo su ajit
+mkdir ass2
+mv commandslist.txt ass2/commandslist.txt
+ls
+cd ass2/
+vi cron_job.sh
+chmod 700 cron_job.sh 
