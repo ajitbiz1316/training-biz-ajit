@@ -1,0 +1,73 @@
+    1  2024-09-19 07:35:52 mkdir temp
+    2  2024-09-19 07:35:52 ls
+    3  2024-09-19 07:35:52 exit
+    4  2024-09-19 07:35:52 sudo adduser ajit
+    5  2024-09-19 07:35:52 ls ../home
+    6  2024-09-19 07:35:52 pwd
+    7  2024-09-19 07:35:52 ls ../
+    8  2024-09-19 07:35:52 sudo passwd ajit
+    9  2024-09-19 07:35:52 su ajit
+   10  2024-09-19 07:35:52 pwd
+   11  2024-09-19 07:35:52 ls
+   12  2024-09-19 07:35:52 ls /etc/ssh
+   13  2024-09-19 07:35:52 rm -rf temp
+   14  2024-09-19 07:35:52 ls
+   15  2024-09-19 07:35:52 exit
+   16  2024-09-19 07:35:52 sudo vi /etc/ssh/sshd_config
+   17  2024-09-19 07:35:52 sudo service sshd restart
+   18  2024-09-19 07:35:52 sudo su
+   19  2024-09-19 07:35:52 exit
+   20  2024-09-19 07:35:52 sudo systemctl restart sshd
+   21  2024-09-19 07:35:52 sudo cat /etc/ssh/sshd_config
+   22  2024-09-19 07:35:52 sudo service sshd reload
+   23  2024-09-19 07:35:52 sudo systemctl sshd reload
+   24  2024-09-19 07:35:52 history
+   25  2024-09-19 07:35:52 sudo systemctl reload sshd
+   26  2024-09-19 07:35:52 ls
+   27  2024-09-19 07:35:52 mkdir temp
+   28  2024-09-19 07:35:52 ls
+   29  2024-09-19 07:35:52 cat /etc/ssh/sshd_config
+   30  2024-09-19 07:35:52 sudo cat /etc/ssh/sshd_config
+   31  2024-09-19 07:35:52 sudo vi /etc/ssh/sshd_config.d
+   32  2024-09-19 07:35:52 sudo ls /etc/ssh/sshd_config.d
+   33  2024-09-19 07:35:52 sudo vi /etc/ssh/sshd_config
+   34  2024-09-19 07:35:52 sudo cat /etc/ssh/sshd_config
+   35  2024-09-19 07:35:52 sudo service sshd restart
+   36  2024-09-19 07:35:52 mkdir ../ajit/.ssh
+   37  2024-09-19 07:35:52 sudo mkdir ../ajit/.ssh
+   38  2024-09-19 07:35:52 ls ../ajit
+   39  2024-09-19 07:35:52 sudo ls ../ajit
+   40  2024-09-19 07:35:52 sudo ls -a ../ajit
+   41  2024-09-19 07:35:52 sudo su
+   42  2024-09-19 07:35:52 sudo vi /etc/ssh/sshd_config
+   43  2024-09-19 07:35:52 sudo service sshd restart
+   44  2024-09-19 07:35:52 sudo vi /etc/ssh/sshd_config
+   45  2024-09-19 07:35:52 su ajit
+   46  2024-09-19 07:35:52 sudo su ajit
+   47  2024-09-19 07:35:52 sudo su
+   48  2024-09-19 07:35:52 sudo ajit
+   49  2024-09-19 07:35:52 su ajit
+   50  2024-09-19 07:35:52 sudo vi /etc/ssh/sshd_config
+   51  2024-09-19 07:35:52 sudo service sshd restart
+   52  2024-09-19 07:35:52 sudo adduser ajit2
+   53  2024-09-19 07:35:52 sudo passwd ajit2
+   54  2024-09-19 07:35:52 sudo su ajit2
+   55  2024-09-17 13:14:59 export HISTTIMEFORMAT="%F %T "
+   56  2024-09-17 13:14:59 source ~/.bashrc
+   57  2024-09-17 13:14:59 history > commandslist.txt
+   58  2024-09-17 13:15:07 ls
+   59  2024-09-17 13:15:13 cat commandslist.txt 
+   60  2024-09-17 13:15:41 rm -rf temp
+   61  2024-09-19 07:35:52 cat commandslist.txt 
+   62  2024-09-19 07:35:52 sudo su ajit2
+   63  2024-09-19 07:35:52 sudo su ajit
+   64  2024-09-19 07:35:52 userdel ajit2
+   65  2024-09-19 07:35:52 sudo userdel ajit2
+   66  2024-09-19 07:35:52 ls ../
+   67  2024-09-19 07:35:52 sudo su ajit2
+   68  2024-09-19 07:35:52 sudo rm -rf ../ajit2 
+   69  2024-09-19 07:35:52 ls ../
+   70  2024-09-19 07:35:54 ls
+   71  2024-09-19 07:36:02 export HISTTIMEFORMAT="%F %T "
+   72  2024-09-19 07:36:02 source ~/.bashrc
+   73  2024-09-19 07:36:02 history > commandslist.txt
