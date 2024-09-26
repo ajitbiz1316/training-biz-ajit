@@ -1,0 +1,199 @@
+    1  2024-09-26 12:32:36 mkdir temp
+    2  2024-09-26 12:32:36 ls
+    3  2024-09-26 12:32:36 exit
+    4  2024-09-26 12:32:36 sudo adduser ajit
+    5  2024-09-26 12:32:36 ls ../home
+    6  2024-09-26 12:32:36 pwd
+    7  2024-09-26 12:32:36 ls ../
+    8  2024-09-26 12:32:36 sudo passwd ajit
+    9  2024-09-26 12:32:36 su ajit
+   10  2024-09-26 12:32:36 pwd
+   11  2024-09-26 12:32:36 ls
+   12  2024-09-26 12:32:36 ls /etc/ssh
+   13  2024-09-26 12:32:36 rm -rf temp
+   14  2024-09-26 12:32:36 ls
+   15  2024-09-26 12:32:36 exit
+   16  2024-09-26 12:32:36 sudo vi /etc/ssh/sshd_config
+   17  2024-09-26 12:32:36 sudo service sshd restart
+   18  2024-09-26 12:32:36 sudo su
+   19  2024-09-26 12:32:36 exit
+   20  2024-09-26 12:32:36 sudo systemctl restart sshd
+   21  2024-09-26 12:32:36 sudo cat /etc/ssh/sshd_config
+   22  2024-09-26 12:32:36 sudo service sshd reload
+   23  2024-09-26 12:32:36 sudo systemctl sshd reload
+   24  2024-09-26 12:32:36 history
+   25  2024-09-26 12:32:36 sudo systemctl reload sshd
+   26  2024-09-26 12:32:36 ls
+   27  2024-09-26 12:32:36 mkdir temp
+   28  2024-09-26 12:32:36 ls
+   29  2024-09-26 12:32:36 cat /etc/ssh/sshd_config
+   30  2024-09-26 12:32:36 sudo cat /etc/ssh/sshd_config
+   31  2024-09-26 12:32:36 sudo vi /etc/ssh/sshd_config.d
+   32  2024-09-26 12:32:36 sudo ls /etc/ssh/sshd_config.d
+   33  2024-09-26 12:32:36 sudo vi /etc/ssh/sshd_config
+   34  2024-09-26 12:32:36 sudo cat /etc/ssh/sshd_config
+   35  2024-09-26 12:32:36 sudo service sshd restart
+   36  2024-09-26 12:32:36 mkdir ../ajit/.ssh
+   37  2024-09-26 12:32:36 sudo mkdir ../ajit/.ssh
+   38  2024-09-26 12:32:36 ls ../ajit
+   39  2024-09-26 12:32:36 sudo ls ../ajit
+   40  2024-09-26 12:32:36 sudo ls -a ../ajit
+   41  2024-09-26 12:32:36 sudo su
+   42  2024-09-26 12:32:36 sudo vi /etc/ssh/sshd_config
+   43  2024-09-26 12:32:36 sudo service sshd restart
+   44  2024-09-26 12:32:36 sudo vi /etc/ssh/sshd_config
+   45  2024-09-26 12:32:36 su ajit
+   46  2024-09-26 12:32:36 sudo su ajit
+   47  2024-09-26 12:32:36 sudo su
+   48  2024-09-26 12:32:36 sudo ajit
+   49  2024-09-26 12:32:36 su ajit
+   50  2024-09-26 12:32:36 sudo vi /etc/ssh/sshd_config
+   51  2024-09-26 12:32:36 sudo service sshd restart
+   52  2024-09-26 12:32:36 sudo adduser ajit2
+   53  2024-09-26 12:32:36 sudo passwd ajit2
+   54  2024-09-26 12:32:36 sudo su ajit2
+   55  2024-09-17 13:14:59 export HISTTIMEFORMAT="%F %T "
+   56  2024-09-17 13:14:59 source ~/.bashrc
+   57  2024-09-17 13:14:59 history > commandslist.txt
+   58  2024-09-17 13:15:07 ls
+   59  2024-09-17 13:15:13 cat commandslist.txt 
+   60  2024-09-17 13:15:41 rm -rf temp
+   61  2024-09-26 12:32:36 cat commandslist.txt 
+   62  2024-09-26 12:32:36 sudo su ajit2
+   63  2024-09-26 12:32:36 sudo su ajit
+   64  2024-09-26 12:32:36 userdel ajit2
+   65  2024-09-26 12:32:36 sudo userdel ajit2
+   66  2024-09-26 12:32:36 ls ../
+   67  2024-09-26 12:32:36 sudo su ajit2
+   68  2024-09-26 12:32:36 sudo rm -rf ../ajit2 
+   69  2024-09-26 12:32:36 ls ../
+   70  2024-09-19 07:35:54 ls
+   71  2024-09-19 07:36:02 export HISTTIMEFORMAT="%F %T "
+   72  2024-09-19 07:36:02 source ~/.bashrc
+   73  2024-09-19 07:36:02 history > commandslist.txt
+   74  2024-09-19 07:36:07 cat commandslist.txt 
+   75  2024-09-26 12:32:36 sudo usermod -aG wheel ajit
+   76  2024-09-26 12:32:36 sudo visudo 
+   77  2024-09-26 12:32:36 sudo passwd ajit
+   78  2024-09-26 12:32:36 su ajit
+   79  2024-09-26 12:32:36 wget https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+   80  2024-09-26 12:32:36 sudo yum update
+   81  2024-09-26 12:32:36 clear
+   82  2024-09-26 12:32:36 sudo yum install wget
+   83  2024-09-26 12:32:36 wget https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+   84  2024-09-26 12:32:36 ls
+   85  2024-09-26 12:32:36 sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm 
+   86  2024-09-26 12:32:36 wget https://pkgs.sysadmins.ws/el9/base/x86_64/compat-openssl10-1.0.2u-1.el9.x86_64.rpm
+   87  2024-09-26 12:32:36 sud yum localinstall compat-openssl10-1.0.2u-1.el9.x86_64.rpm 
+   88  2024-09-26 12:32:36 sudo yum localinstall compat-openssl10-1.0.2u-1.el9.x86_64.rpm 
+   89  2024-09-26 12:32:36 sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm 
+   90  2024-09-26 12:32:36 wget https://download.oracle.com/otn-pub/otn_software/db-express/oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+   91  2024-09-26 12:32:36 sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm 
+   92  2024-09-26 12:32:36 clear
+   93  2024-09-26 12:32:36 exit
+   94  2024-09-26 12:32:36 sudo yum install java-17-openjdk-devel
+   95  2024-09-26 12:32:36 java --version
+   96  2024-09-26 12:32:36 exit
+   97  2024-09-26 12:32:36 ls /opt/
+   98  2024-09-26 12:32:36 cd /opt/oracle/
+   99  2024-09-26 12:32:36 ls
+  100  2024-09-26 12:32:36 cd cfgtoollogs/
+  101  2024-09-26 12:32:36 sudo cd cfgtoollogs/
+  102  2024-09-26 12:32:36 ls
+  103  2024-09-26 12:32:36 sudo cd cfgtoollogs/
+  104  2024-09-26 12:32:36 ls
+  105  2024-09-26 12:32:36 cd homes/
+  106  2024-09-26 12:32:36 sudo cd homes/
+  107  2024-09-26 12:32:36 ls
+  108  2024-09-26 12:32:36 sudo su
+  109  2024-09-26 12:32:36 cd 
+  110  2024-09-26 12:32:36 ls /opt/ORCLfmap/
+  111  2024-09-26 12:32:36 sudo su
+  112  2024-09-26 12:32:36 export ORACLE_HOME=/opt/oracle/product/dbhomeXE
+  113  2024-09-26 12:32:36 echo $ORACLE_HOME
+  114  2024-09-26 12:32:36 cd $ORACLE_HOME
+  115  2024-09-26 12:32:36 sudo cd $ORACLE_HOME
+  116  2024-09-26 12:32:36 ls /opt/oracle/product/
+  117  2024-09-26 12:32:36 export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
+  118  2024-09-26 12:32:36 echo $ORACLE_HOME
+  119  2024-09-26 12:32:36 cd $ORACLE_HOME
+  120  2024-09-26 12:32:36 ls
+  121  2024-09-26 12:32:36 cd
+  122  2024-09-26 12:32:36 exit
+  123  2024-09-26 12:32:36 ls ../
+  124  2024-09-26 12:32:36 sudo /etc/init.d/oracle-xe-21c configure
+  125  2024-09-26 12:32:36 sqlplus
+  126  2024-09-26 12:32:36 sqlplus classicmodels/classicmodels123
+  127  2024-09-26 12:32:36 bash ./.bash_profile 
+  128  2024-09-26 12:32:36 cat ./.bash_profile 
+  129  2024-09-26 12:32:36 cat $ORACLE_HOME
+  130  2024-09-26 12:32:36 echo $ORACLE_HOME
+  131  2024-09-26 12:32:36 vi ./.bash_profile 
+  132  2024-09-26 12:32:36 source ~/.bash_profile 
+  133  2024-09-26 12:32:36 sqlplus classicmodels/classicmodels123
+  134  2024-09-26 12:32:36 sqlplus
+  135  2024-09-26 12:32:36 sqlplus classicmodels/classicmodels123
+  136  2024-09-26 12:32:36 sudo /etc/init.d/oracle-xe-21c stop
+  137  2024-09-26 12:32:36 sudo /etc/init.d/oracle-xe-21c configure
+  138  2024-09-26 12:32:36 sudo /etc/init.d/oracle-xe-21c start
+  139  2024-09-26 12:32:36 sqlplus
+  140  2024-09-26 12:32:36 sudo lsnrctl status
+  141  2024-09-26 12:32:36 sudo service oracle-xe-21c start
+  142  2024-09-26 12:32:36 vi ./.bash_profile 
+  143  2024-09-26 12:32:36 sudo lsnrctl status
+  144  2024-09-26 12:32:36 cd $ORACLE_HOME
+  145  2024-09-26 12:32:36 ls
+  146  2024-09-26 12:32:36 echo $PATH | grep oracle
+  147  2024-09-26 12:32:36 cd 
+  148  2024-09-26 12:32:36 source ./.bash_profile 
+  149  2024-09-26 12:32:36 echo $PATH | grep oracle
+  150  2024-09-26 12:32:36 echo $PATH
+  151  2024-09-26 12:32:36 env
+  152  2024-09-26 12:32:36 export PATH=$ORACLE_HOME/bin:/home/ec2-user/.local/bin:/home/ec2-user/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+  153  2024-09-26 12:32:36 echo $PATH | grep oracle
+  154  2024-09-26 12:32:36 cat ./.bash_profile 
+  155  2024-09-26 12:32:36 sudo lsnrctl status
+  156  2024-09-26 12:32:36 sqlplus
+  157  2024-09-26 12:32:36 sudo service oracle-xe-21c st
+  158  2024-09-26 12:32:36 exit
+  159  2024-09-26 12:32:36 sqlplus classicmodels/classicmodels123
+  160  2024-09-26 12:32:36 echo $PATH
+  161  2024-09-26 12:32:36 sudo lsnrctl status
+  162  2024-09-26 12:32:36 cd $ORACLE_HOME/bin
+  163  2024-09-26 12:32:36 ls
+  164  2024-09-26 12:32:36 lsnrctl status
+  165  2024-09-26 12:32:36 cd
+  166  2024-09-26 12:32:36 sudo service oracle-xe-21c start
+  167  2024-09-26 12:32:36 lsnrctl status
+  168  2024-09-26 12:32:36 sqlplus classicmodes/classicmodels123
+  169  2024-09-26 12:32:36 sqlplus classicmodels/classicmodels123
+  170  2024-09-26 12:32:36 sqlplus classicmodes/classicmodels123
+  171  2024-09-26 12:32:36 sqlplus classicmodels/classicmodels123
+  172  2024-09-26 12:32:36 vi ./.bash_profile 
+  173  2024-09-26 12:32:36 source ./.bash_profile 
+  174  2024-09-26 12:32:36 cat ./.bash_p
+  175  2024-09-26 12:32:36 cat ./.bash_profile 
+  176  2024-09-26 12:32:36 ls
+  177  2024-09-26 12:32:36 cd $ORACLE_HOME/bin
+  178  2024-09-26 12:32:36 imp classicmodels/classicmodels FULL=y FILE=~/classicmodels.dmp log=~/import.log
+  179  2024-09-26 12:32:36 sqlplus classicmodels/classicmodels123
+  180  2024-09-26 12:32:36 clear
+  181  2024-09-26 12:32:36 cd 
+  182  2024-09-26 12:32:36 ls
+  183  2024-09-26 12:32:36 cat import.log 
+  184  2024-09-26 12:32:36 exit
+  185  2024-09-26 12:32:36 ls
+  186  2024-09-26 12:32:36 history
+  187  2024-09-26 12:32:36 history | grep history
+  188  2024-09-26 12:32:36 sudo su ajit
+  189  2024-09-26 12:32:36 mkdir ass2
+  190  2024-09-26 12:32:36 mv commandslist.txt ass2/commandslist.txt
+  191  2024-09-26 12:32:36 ls
+  192  2024-09-26 12:32:36 cd ass2/
+  193  2024-09-26 12:32:36 vi cron_job.sh
+  194  2024-09-26 12:32:36 chmod 700 cron_job.sh 
+  195  2024-09-26 12:32:40 ls
+  196  2024-09-26 12:35:13 cat ./.bashrc 
+  197  2024-09-26 12:37:42 cd ass2/
+  198  2024-09-26 12:37:47 vi cron_job.sh 
+  199  2024-09-26 12:38:18 ./cron_job.sh 
