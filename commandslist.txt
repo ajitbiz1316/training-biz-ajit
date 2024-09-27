@@ -434,3 +434,7 @@ tail training-biz-ajit/commandslist.txt
 TZ=IST-5:30 date +"%S-%M-%H"
 echo helloo
 TZ=IST-5:30 date +"%S-%M-%H"
+echo hello
+TZ=IST-5:30 date +"%S-%M-%H"
+echo hello
+tail training-biz-ajit/commandslist.txt 
