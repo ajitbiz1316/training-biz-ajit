@@ -421,3 +421,4 @@ tail training-biz-ajit/commandslist.txt
 TZ=IST-5:30 date +"%S-%M-%H"
 vi ~/.bashrc
 crontab -e
+TZ=IST-5:30 date +"%S-%M-%H"
