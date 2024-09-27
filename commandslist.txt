@@ -401,3 +401,13 @@ vi ~/.bashrc
 tail ~/.bash_history 
 cd ass2/
 tail ~/.bash_history 
+./push_hist.sh 
+TZ=IST-5:30 date +"%S-%M-%H"
+tail ~/.bash_history 
+TZ=IST-5:30 date +"%S-%M-%H"
+tail ~/.bash_history 
+cat training-biz-ajit/commandslist.txt 
+tail ~/.bash_history 
+sudo tail /var/log/cron
+crontab -e
+TZ=IST-5:30 date +"%S-%M-%H"
