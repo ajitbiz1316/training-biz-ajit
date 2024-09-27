@@ -411,3 +411,5 @@ tail ~/.bash_history
 sudo tail /var/log/cron
 crontab -e
 TZ=IST-5:30 date +"%S-%M-%H"
+tail training-biz-ajit/commandslist.txt 
+TZ=IST-5:30 date +"%S-%M-%H"
