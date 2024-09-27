@@ -330,3 +330,74 @@ wc --help
 cat ass2/cron_job.sh | wc -l
 grep --file=./* history | wc -l
 grep -r history | wc -l
+cd ass2/
+vi cron_job.sh 
+crontab -e
+date +"%S-%M-%H"
+tail training-biz-ajit/commandslist.txt 
+date +"%S-%M-%H"
+tail training-biz-ajit/commandslist.txt 
+date +"%S-%M-%H"
+tail training-biz-ajit/commandslist.txt 
+date +"%S-%M-%H"
+tail training-biz-ajit/commandslist.txt 
+date +"%S-%M-%H"
+tail training-biz-ajit/commandslist.txt 
+date +"%S-%M-%H"
+tail training-biz-ajit/commandslist.txt 
+crontab -e
+date +"%S-%M-%H"
+tail training-biz-ajit/commandslist.txt 
+./cron_job.sh 
+tail training-biz-ajit/commandslist.txt 
+tail ~/.bash_history 
+vi cron_job.sh 
+tail ~/.bash_history 
+vi cron_job.sh 
+tail ~/.bash_history 
+date +"%S-%M-%H"
+tail ~/.bash_history 
+date +"%S-%M-%H"
+tail ~/.bash_history 
+date +"%S-%M-%H"
+tail ~/.bash_history 
+date +"%S-%M-%H"
+tail ~/.bash_history 
+date +"%S-%M-%H"
+tail ~/.bash_history 
+vi cron_job.sh 
+tail ~/.bash_history 
+date +"%S-%M-%H"
+tail ~/.bash_history 
+date +"%S-%M-%H"
+tail ~/.bash_history 
+date +"%S-%M-%H"
+tail ~/.bash_history 
+tail /var/log/cron
+sudo tail /var/log/cron
+tail ~/.bash_history 
+vi cron_job.sh 
+crontab -e
+./cron_job.sh 
+tail ~/.bash_history 
+./cron_job.sh 
+ls -l 
+cat cron_output.log 
+ls -l training-biz-ajit/
+mv cron_job.sh push_hist.sh
+ls -l 
+vi push_hist.sh 
+tail ~/.bash_history 
+source ~/.bashrc 
+tail ~/.bash_history 
+vi ~/.bashrc 
+vi push_hist.sh 
+./push_hist.sh 
+vi ~/.bashrc 
+./push_hist.sh 
+tail ~/.bash_history 
+vi ~/.bashrc 
+./push_hist.sh 
+tail ~/.bash_history 
+cd ass2/
+tail ~/.bash_history 
