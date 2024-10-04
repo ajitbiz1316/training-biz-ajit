@@ -479,3 +479,55 @@ ls /opt
 sudo yum install ssmtp
 sudo yum remove epel-release
 ls /etc/yum.repos.d/
+sudo yum install postfix mailx
+sudo yum install postfix
+sendmail --help
+sendmail -h
+mail --help
+mail --h
+sendmail --h
+sendmail --help
+sudo vi /etc/postfix/main.cf
+grep sasl /etc/postfix/main.cf
+grep relayhost sasl /etc/postfix/main.cf
+grep myhostname /etc/postfix/main.cf
+grep mydomain /etc/postfix/main.cf
+sudo vi /etc/postfix/main.cf
+ls /etc/postfix/
+sudo touch /etc/postfix/sasl_passwd
+ls /etc/postfix/
+sudo vi /etc/postfix/sasl_passwd 
+sudo postmap /etc/postfix/sasl_passwd
+grep /etc/postfix/sasl_passwd
+find /etc/postfix/sasl_passwd
+ls /etc/postfix/
+
+sudo vi /etc/postfix/main.cf
+grep home_mailbox /etc/postfix/main.cf
+sudo vi /etc/postfix/main.cf
+sudo systemctl restart postfix
+echo "Test email body" | sendmail -s "Test Subject" azt25082000@gmail.com
+echo "Test email body" | sendmail  azt25082000@gmail.com
+tail -f /var/log/maillog
+sudo tail -f /var/log/maillog
+grep ca-bundle /etc/postfix/main.cf
+ls /etc/
+cd /etc/ssl/
+ls
+cd certs
+ls
+sudo tail -f /var/log/maillog
+echo "Test email body Ajit" | sendmail  samith.hegde@bizacuity.com
+sudo tail -f /var/log/maillog
+sudo firewall-cmd --list-all
+nslookup smtp.google.com
+sudo tail -f /var/log/maillog
+grep ca-bundle /etc/postfix/main.cf
+sudo vi /etc/postfix/main.cf
+sudo sestemctl restart postfix
+sudo systemctl restart postfix
+sudo tail -f /var/log/maillog
+cd
+postqueue -p
+sudo tail -f /var/log/maillog
+sudo vi /etc/postfix/main.cf
