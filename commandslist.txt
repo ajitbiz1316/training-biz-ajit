@@ -531,3 +531,71 @@ cd
 postqueue -p
 sudo tail -f /var/log/maillog
 sudo vi /etc/postfix/main.cf
+sudo systemctl restart postfix
+sudo tail -f /var/log/maillog
+postqueue -p
+sudo tail -f /var/log/maillog
+postqueue -p
+sudo tail -f /var/log/maillog
+echo "Test email body" | sendmail  azt25082000@gmail.com
+postqueue -p
+sudo tail -f /var/log/maillog
+sudo vi /etc/postfix/main.cf
+sudo systemctl restart postfix
+sudo tail -f /var/log/maillog
+sudo yum install cyrus-sasl cyrus-sasl-plain
+sudo systemctl restart postfix
+sudo tail -f /var/log/maillog
+mailq
+postqueue -f
+sudo tail -f /var/log/maillog
+mailq
+sudo tail -f /var/log/maillog
+sudo vi /etc/postfix/main.cf
+sudo vi /etc/postfix/sasl_passwd
+sudo postmap /etc/postfix/sasl_passwd
+history | grep chmod
+sudo chmod 600 /etc/postfix/sasl_passwd /etc/postfix/sasl_passwd.db
+sudo systemctl restart postfix
+postqueue -f
+sudo tail -f /var/log/maillog
+sudo yum remove cyrus-sasl cyrus-sasl-plain
+cd ass3
+echo "Test email body" | sendmail  azt25082000@gmail.com
+sudo tail -f /var/log/maillog
+sudo yum install cyrus-sasl cyrus-sasl-plain
+sudo systemctl restart postfix
+postqueue -f
+mailq
+vi send_mail.sh
+chmod 700 send_mail.sh 
+CPU=$(top -bn1 | grep "Cpu(s)" | sed "s/.*, *\([0-9.]*\)%* id.*/\1/" | awk '{print 100 - $1"%"}')
+top -bn1 | grep "Cpu(s)" | sed "s/.*, *\([0-9.]*\)%* id.*/\1/" | awk '{print 100 - $1"%"}'
+top
+lscpu
+top -b -n1
+top -b -n1 | grep 'Cpu(s)'
+free -m | awk 'NR==2{printf "Memory Usage: %sMB/%sMB (%.2f%%)\n", $3,$2,$3*100/$2 }'
+free -m
+vi send_mail.sh 
+ls
+bash send_mail.sh 
+vi send_mail.sh 
+bash send_mail.sh 
+bash send_mail.sh | echo -e
+vi send_mail.sh 
+bash send_mail.sh
+vi send_mail.sh 
+bash send_mail.sh
+vi send_mail.sh 
+bash send_mail.sh
+vi send_mail.sh 
+top --help
+top
+top -b -n2
+crontab -e
+vi send_mail.sh 
+crontab -e
+crontab -l
+crontab -e
+clear
