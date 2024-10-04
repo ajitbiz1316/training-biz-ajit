@@ -599,3 +599,29 @@ crontab -e
 crontab -l
 crontab -e
 clear
+sudo tail /var/log/cron
+sudo cat /var/log/cron | grep send_mail
+crontab -l
+cd ass3`
+cd ass3
+vi send_mail.sh 
+crontab -e
+vi send_mail.sh 
+crontab -e
+date
+sudo cat /var/log/cron | grep send_mail
+date
+vi send_mail.sh 
+date
+sudo cat /var/log/cron | grep send_mail
+mailq
+bash send_mail.sh 
+vi send_mail.sh 
+date
+sudo cat /var/log/cron | grep send_mail
+date
+vi send_mail.sh 
+crontab -e
+date
+sudo cat /var/log/cron | grep send_mail
+clear
