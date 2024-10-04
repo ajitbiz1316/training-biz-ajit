@@ -441,3 +441,41 @@ tail training-biz-ajit/commandslist.txt
 TZ=IST-5:30 date +"%S-%M-%H"
 crontab -e
 TZ=IST-5:30 date +"%S-%M-%H"
+ls
+mkdir downloads
+mv *.rpm ./downloads/
+ls
+ls downloads/
+mkdir ass3
+df -h
+df -h /
+free -h
+cd ass3/
+touch temp.txt
+echo "hellO" >> temp.txt 
+cat temp.txt 
+echo "hel123lO" >> temp.txt 
+cat temp.txt 
+cat temp.txt | echo >> temp.txt 
+cat temp.txt 
+cat temp.txt | echo
+cat temp.txt >> temp.txt 
+cat temp.txt 
+df -h / >> temp.txt 
+cat temp.txt 
+free -h >> temp.txt 
+cat temp.txt 
+sudo yum install msmtp
+sudo yum update
+subscription-manager repos --enable codeready-builder-for-rhel-9-$(arch)-rpms
+sudo subscription-manager repos --enable codeready-builder-for-rhel-9-$(arch)-rpms
+yum repolist
+sudo yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm -y
+yum repolist
+sudo yum intall msmtp
+sudo yum install msmtp -y
+sudo yum install msmtp
+ls /opt
+sudo yum install ssmtp
+sudo yum remove epel-release
+ls /etc/yum.repos.d/
