@@ -640,3 +640,7 @@ cd ass4
 ls
 vi payments.csv 
 exit
+cd ass4
+ls
+vi payments.csv 
+ls
