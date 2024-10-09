@@ -625,3 +625,14 @@ crontab -e
 date
 sudo cat /var/log/cron | grep send_mail
 clear
+ls
+mkdir ass4
+cd ass4
+touch payments.csv
+tail payments.csv 
+cp payments.csv payment_copy.csv
+ls
+vi payment_copy.csv 
+ls
+tail payment_copy.csv 
+exit
