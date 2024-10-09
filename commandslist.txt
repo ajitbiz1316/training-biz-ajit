@@ -636,3 +636,7 @@ vi payment_copy.csv
 ls
 tail payment_copy.csv 
 exit
+cd ass4
+ls
+vi payments.csv 
+exit
